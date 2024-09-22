@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "imgat-ui"
+version = "0.0.1"
+description = "ImageAnalyzeTool的客户端"
+authors = ["路绘唯梦 <liuliren.mm@gmail.com>"]
+license = "Apache-2.0 license"
+readme = "README.md"
+packages = [{include = "imgat_ui"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flet = "^0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
